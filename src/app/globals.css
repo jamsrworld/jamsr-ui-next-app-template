@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "@jamsr-ui/theme/styles.css";
+
+@source "../../node_modules/@jamsr-ui";
+
+/* @source "../../node_modules/@jamsr-ui/text"; */
+/* @source "../../node_modules/@jamsr-ui/button"; */
+/* @source "../../node_modules/@jamsr-ui/utils";  */
+
+/* @source "../../node_modules"; */
